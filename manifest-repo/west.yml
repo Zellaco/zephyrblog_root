@@ -1,0 +1,15 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: zellaco
+      url-base: https://github.com/Zellaco
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v2.7.1
+      import: true
+    - name: zephyrblog_example1
+      remote: zellaco
+  self:
+    path: manifest-repo
